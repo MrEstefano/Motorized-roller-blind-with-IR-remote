@@ -1,7 +1,7 @@
 
 /*
- Name:    step_drive.ino
- Author:  mertwhocodes
+ Name:    motorized roller blind
+ Author:  Stefan
 */
 
 
@@ -25,7 +25,7 @@ unsigned long timer2;
 unsigned long difference;
 
 
-int RECV_PIN = 9;          //  The digital pin that the signal pin of the sensor is connected to
+int RECV_PIN = 2;          //  The digital pin that the signal pin of the sensor is connected to
 IRrecv receiver(RECV_PIN);  //  Create a new receiver object that would decode signals to key codes
 decode_results results;  
 int motorFlag = 1; 
